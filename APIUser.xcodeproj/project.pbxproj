@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3F48A426D40C8D00C236CE /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F48A326D40C8C00C236CE /* DataServices.swift */; };
+		4F3F48A926D4206100C236CE /* GitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F48A826D4206100C236CE /* GitData.swift */; };
 		4F4DF09A26D2B2B400CDC29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DF09926D2B2B400CDC29D /* AppDelegate.swift */; };
 		4F4DF09C26D2B2B400CDC29D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DF09B26D2B2B400CDC29D /* SceneDelegate.swift */; };
 		4F4DF09E26D2B2B400CDC29D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DF09D26D2B2B400CDC29D /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F3F48A326D40C8C00C236CE /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		4F3F48A826D4206100C236CE /* GitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitData.swift; sourceTree = "<group>"; };
 		4F4DF09626D2B2B400CDC29D /* APIUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4DF09926D2B2B400CDC29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4DF09B26D2B2B400CDC29D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				4F4DF0A226D2B2B700CDC29D /* Assets.xcassets */,
 				4F4DF0A426D2B2B700CDC29D /* LaunchScreen.storyboard */,
 				4F4DF0A726D2B2B700CDC29D /* Info.plist */,
+				4F3F48A326D40C8C00C236CE /* DataServices.swift */,
+				4F3F48A826D4206100C236CE /* GitData.swift */,
 			);
 			path = APIUser;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 				4F4DF09E26D2B2B400CDC29D /* ViewController.swift in Sources */,
 				4F4DF09A26D2B2B400CDC29D /* AppDelegate.swift in Sources */,
 				4F4DF09C26D2B2B400CDC29D /* SceneDelegate.swift in Sources */,
+				4F3F48A926D4206100C236CE /* GitData.swift in Sources */,
+				4F3F48A426D40C8D00C236CE /* DataServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

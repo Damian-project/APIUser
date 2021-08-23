@@ -14,6 +14,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        DataService.shared.fetchData { (result) in
+            switch result {
+            case .success(let gitData):
+                for git in gitData {
+                    print("\(git)\n")
+                }
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
     
     @IBAction func CreateNewGits(_ sender: UIButton) {
