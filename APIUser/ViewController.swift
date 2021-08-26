@@ -13,7 +13,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let testGit = GitData(id: nil, isPublic: true, description: "Hello")
+        
+        do {
+            let testData = try JSONEncoder().encode(testGit)
+            let stringData = String(data: testData, encoding: .utf8)
+        } catch {
+            print("Encoding fail \(error)")
+        }
+        
         DataService.shared.fetchData { (result) in
             switch result {
             case .success(let gitData):
